@@ -12,7 +12,7 @@
                 <div class="card">
                     <div class="card-body">
                         <div class="text-center font-weight-bolder">
-                        <h1 class="card-title"><strong>{{$projet->libelle}}</strong></h1>
+                            <h1 class="card-title"><strong>{{$projet->libelle}}</strong></h1>
                         </div>
                         <div class="text-center text-uppercase">
                             <h3 class="card-title">{{$projet->duree_du_projet}}</h3>
