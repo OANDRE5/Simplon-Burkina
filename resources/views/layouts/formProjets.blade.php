@@ -8,6 +8,7 @@
     @include('layouts/partials/_links')
 </head>
     <body>
+        @include('layouts/partials/_menu')
         @yield('formulaire-projets-realises')
 
         @include('layouts/partials/_scripts')

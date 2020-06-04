@@ -8,11 +8,11 @@
 
 
 
-        <div class="text-center border bolder mt-5">
+        <div class="text-center border bolder mt-3">
             <h1>FORMULAIRE D'AJOUT DE PROJET</h1>
         </div>
 
-        <form class="mt-5 marges" method="post" action="traitements/enregistrer.php">
+    <form class="mt-5 marges" method="post" action="{{url('enregistrer')}}">
             @csrf
             <div class="form-group row">
                 <label for="libelleForm" class="col-sm-4 col-form-label">Libellé</label>
@@ -40,7 +40,7 @@
             </div>
 
             <div class="mt-5">
-                <input type="submit" class="btn btn-primary" value="Enregistrer" name="FormulaireProjet">
+                <input type="submit" class="btn btn-primary" value="Enregistrer">
             </div>
         </form>
 

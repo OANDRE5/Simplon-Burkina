@@ -7,23 +7,26 @@
     </div>
 
     <div class="row row-cols-2 row-cols-md-1 pr-5 pl-5">
-
+        @foreach($projetRecuperation as $recup)
             <div class="col mb-4">
                 <div class="card">
                     <div class="card-body">
                         <div class="text-center font-weight-bolder">
-                            <h1 class="card-title"><strong></strong></h1>
+                        <h1 class="card-title"><strong>{{$recup->libelle}}</strong></h1>
                         </div>
                         <div class="text-center text-uppercase">
-                            <h3 class="card-title"></h3>
+                            <h3 class="card-title">{{$recup->duree_du_projet}}</h3>
                         </div>
                         <div class="text-center">
-                            <p class="card-text font-italic"></p>
+                            <p class="card-text">{{$recup->mission}}</p>
+                        </div>
+                        <div class="text-center">
+                            <p class="card-text font-italic">{{$recup->technologies_utilisees}}</p>
                         </div>
                     </div>
                 </div>
             </div>
-        
+        @endforeach
     </div>
 
 @endsection

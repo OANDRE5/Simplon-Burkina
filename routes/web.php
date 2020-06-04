@@ -17,12 +17,8 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('/formulaire-projet', function() {
-    return view('formulaireProjets');
-});
+Route::get('/formulaire-projet', 'ProjetsController@addProject');
 
+Route::get('/projets', 'ProjetsController@displayProject');
 
-
-Route::get('/projets', function() {
-    return view('projetsRealises');
-});
+Route::post('/enregistrer', 'ProjetsController@saveIntoDB');
