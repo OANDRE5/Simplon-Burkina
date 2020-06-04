@@ -14,8 +14,8 @@ class ProjetsController extends Controller
     }
 
     function displayProject() {
-        $leProjet = Projet::all();
-        return view('projetsRealises', ['$projetRecuperation'=>'$leProjet']);
+        $projets = Projet::all();
+        return view('projetsRealises',['recuperation'=>$projets]);
     }
 
     function saveIntoDB(Request $request) {
