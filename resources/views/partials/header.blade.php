@@ -22,12 +22,16 @@
                 </ul>
 
             </div>
+
         </div>
-        <form class="form-inline">
-            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-          </form>
+
     </nav>
+    <div>
+        <form class="form-inline" id="searchbar">
+            <input class="form-control mr-sm-2" type="search" placeholder="Entrer votre recherche" aria-label="Search">
+            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Rechercher</button>
+          </form>
+    </div>
 
     <main class="py-4">
         @yield('content')

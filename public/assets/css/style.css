@@ -2022,7 +2022,14 @@ ul.pagination li.page-item.active .page-link {
     display: inline-flex;
     justify-content: space-between;
 }
-.maricon{
+#maricon{
     justify-content: flex-end !important;
+}
+#searchbar{
+    justify-content: flex-end !important;
+}
+body{
+    margin-right: 5% !important;
+    margin-left: 5% !important;
 }
 
