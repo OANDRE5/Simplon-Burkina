@@ -17,6 +17,7 @@ Route::get('/', function () {
     return view('welcome');
 });
 
+
 Route::get('/formulaire-projet', 'ProjetsController@addProject');
 
 Route::get('/projets', 'ProjetsController@displayProject');
