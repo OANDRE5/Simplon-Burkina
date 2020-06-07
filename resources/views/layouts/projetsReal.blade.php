@@ -8,8 +8,17 @@
         @include('layouts/partials/_links')
     </head>
     <body>
+
+        @include('partials/header')
+        
         @include('layouts/partials/_menu')
         @yield('projets-realises')
+
+        @include('partials/footer')
+        
+        @include('layouts/partials/_menu')
+        @yield('projets-realises')
+
 
         @include('layouts/partials/_scripts')
     </body>
