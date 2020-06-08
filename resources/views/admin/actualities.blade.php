@@ -47,7 +47,6 @@
     <button class="btn btn-primary" type="submit">Submit form</button>
   </form>
 
-  <br><br><br>
   
 
 </body>
