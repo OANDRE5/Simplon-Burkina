@@ -23,6 +23,19 @@ Route::get('/admin/actualities','actualitiescontroller@create')->name('root_path
 
 Route::resource('/admin/actualities', 'actualitiescontroller');
 
+
+Route::get('/portrait', 'ApprenantsController@portrait');
+
+Route::get('/create', 'ApprenantsController@create');
+
+Route::get('alumnis/FormAlumni', 'AlumnisController@FormAlumni');
+
+Route::post('/ajouter', 'ApprenantsController@strore');
+
+Route::post('alumnis', 'AlumnisController@store2');
+
+Route::get('alumnis/liste', 'AlumnisController@liste');
+
 // Route::get('/admin/actualities','evenementscontroller@create')->name('root_path');
 
 // Route::resource('/admin/actualities', 'evenementscontroller');
