@@ -17,9 +17,9 @@
                 <ul class="navbar-nav ml-auto">
                     <li><button class="btn bnt-danger"><a href="<?php echo e(route('index')); ?>">Acceuil</a></button></li>
                 <li><button class="btn btn-danger"><a href="#" id="men">Nos Formations</a></button></li>
-                  <li><button class="btn btn-danger"><a href="alumnis/FormAlumni" id="men">Nos Simplonniens</a></button></li>
+                  <li><button class="btn btn-danger"><a href="/Nos Simplonniens" id="men">Nos Simplonniens</a></button></li>
                   <li><button class="btn btn-danger"><a href="#" id="men">Notre equipe</a></button></li>
-                  <li><button class="btn btn-danger"><a href="#" id="men">Contact</a></button></li>
+                  <li><button class="btn btn-danger"><a href="/Nous Contacter" id="men">Contact</a></button></li>
                 </ul>
 
             </div>

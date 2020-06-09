@@ -28,6 +28,25 @@
   <link rel="stylesheet" href="../assets/css/bootstrap.min.css">
     <link rel="stylesheet" href="../assets/css/style.css">
 
+    	<!-- CSS page Nos Simplonniens -->
+        <link href="assets/css/nos_simplo/bootstrap.min.css" rel="stylesheet">
+        <link href="assets/css/nos_simplo/font-awesome.min.css" rel="stylesheet">
+        <link href="assets/css/nos_simplo/animate.min.css" rel="stylesheet">
+        <link href="assets/css/nos_simplo/owl.carousel.css" rel="stylesheet">
+        <link href="assets/css/nos_simplo/owl.transitions.css" rel="stylesheet">
+        <link href="assets/css/nos_simplo/prettyPhoto.css" rel="stylesheet">
+        <link href="assets/css/nos_simplo/main.css" rel="stylesheet">
+        <link href="assets/css/nos_simplo/styles.css" rel="stylesheet">
+        <!--[if lt IE 9]>
+        <script src="js/html5shiv.js"></script>
+        <script src="js/respond.min.js"></script>
+        <![endif]-->       
+        <link rel="shortcut icon" href="images/ico/favicon.png">
+        <link rel="apple-touch-icon-precomposed" sizes="144x144" href="images/ico/apple-touch-icon-144-precomposed.png">
+        <link rel="apple-touch-icon-precomposed" sizes="114x114" href="images/ico/apple-touch-icon-114-precomposed.png">
+        <link rel="apple-touch-icon-precomposed" sizes="72x72" href="images/ico/apple-touch-icon-72-precomposed.png">
+        <link rel="apple-touch-icon-precomposed" href="images/ico/apple-touch-icon-57-precomposed.png">
+
     <style>
     #ser{
         color: black;

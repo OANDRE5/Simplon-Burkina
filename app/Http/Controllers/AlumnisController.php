@@ -18,7 +18,7 @@ class AlumnisController extends Controller
     $alumnis= Alumni::all();
    
 
-    return view('alumnis.liste');
+    return view('alumnis.liste',compact('alumnis'));
 
   }
 

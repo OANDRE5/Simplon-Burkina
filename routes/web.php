@@ -19,6 +19,12 @@ use Illuminate\Support\Facades\Route;
 Route::resource('/', 'welcomecontroller');
 Route::get('success','welcomecontroller@index');
 
+Route::view('Nos Simplonniens','Nos Simplonniens');
+
+Route::view('Nous Contacter','Nous Contacter');
+
+Route::view('Notre Equipe','Notre Equipe');
+
 Route::get('/admin/actualities','actualitiescontroller@create')->name('root_path');
 
 Route::resource('/admin/actualities', 'actualitiescontroller');
