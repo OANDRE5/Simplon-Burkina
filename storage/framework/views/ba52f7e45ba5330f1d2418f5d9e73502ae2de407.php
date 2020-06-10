@@ -12,7 +12,7 @@
                 </ul>
 
                 <!-- Right Side Of Navbar -->
-                <ul class="navbar-nav ml-auto">
+                <ul class="navbar-nav ml-auto pl-4">
                     <li><button class="btn bnt-danger"><a href="index.html">Acceuil</a></button></li>
                   <li><button class="btn btn-danger"><a href="#" id="men">Nos Formations</a></button></li>
                   <li><button class="btn btn-danger"><a href="#" id="men">Nos Simplonniens</a></button></li>
